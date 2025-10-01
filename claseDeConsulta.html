@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Clase de Consultas - Viajes</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <header>
+    <img src="imagenes/descarga.jpeg" alt="Logo Agencia" class="logo">
+    <h1 id="titulo-principal">Agencia de Viajes</h1>
+  </header>
+
+  <section class="intro">
+    <p>Bienvenidos a nuestra agencia, donde encontrarás los mejores destinos.</p>
+    <p>Explora y elige tu próxima aventura.</p>
+  </section>
+
+  <section class="destinos">
+    <h2>Destinos Populares</h2>
+    <ul id="lista-destinos">
+      <li class="destino">🌍 París</li>
+      <li class="destino">🏯 Tokio</li>
+      <li class="destino">🗽 Nueva York</li>
+      <li class="destino">🏛️ Roma</li>
+    </ul>
+  </section>
+
+  <section id="paquetes">
+    <h2>Paquetes Turísticos</h2>
+    <div class="paquetes-grid">
+      <article>
+        <img src="imagenes/descarga.jpeg" alt="Europa" class="img-paquete">
+        <h3 class="titulo-paquete">Paquete Europa</h3>
+        <p>Incluye vuelos y hoteles en varias ciudades.</p>
+      </article>
+      <article>
+        <img src="imagenes/descarga.jpeg" alt="Asia" class="img-paquete">
+        <h3 class="titulo-paquete">Paquete Asia</h3>
+        <p>Recorre Japón, Corea y Tailandia con guías locales.</p>
+      </article>
+      <article>
+        <img src="imagenes/descarga.jpeg" alt="América" class="img-paquete">
+        <h3 class="titulo-paquete">Paquete América</h3>
+        <p>Descubre las maravillas de Estados Unidos y Brasil.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="reserva">
+    <h2>Reserva tu viaje</h2>
+    <form id="form-reserva">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+
+      <label for="destino">Elige un destino:</label>
+      <select id="destino" name="destino">
+        <option value="paris">París</option>
+        <option value="tokio">Tokio</option>
+        <option value="nuevayork">Nueva York</option>
+        <option value="roma">Roma</option>
+      </select>
+
+      <label for="comentarios">Comentarios:</label>
+      <textarea id="comentarios" name="comentarios" placeholder="Escribe tus comentarios aquí..."></textarea>
+
+      <button type="submit">Enviar Reserva</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Agencia de Viajes - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
